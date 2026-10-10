@@ -1,0 +1,12 @@
+.navbar{display:flex;align-items:center;justify-content:space-between;padding:0 32px;height:60px;background:#0f2b46;color:#fff}
+.nav-brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:1.15rem}
+.nav-icon{font-size:1.4rem}
+.nav-links{display:flex;gap:6px}
+.nav-link{padding:8px 18px;border-radius:6px;font-size:.9rem;font-weight:500;color:#8db4d8;transition:all .2s}
+.nav-link:hover{background:rgba(255,255,255,.08);color:#fff}
+.nav-link.active{background:rgba(255,255,255,.12);color:#fff}
+.nav-user{display:flex;align-items:center;gap:12px}
+.nav-name{font-size:.85rem;color:#8db4d8}
+.logout-btn{padding:6px 14px;background:transparent;border:1px solid #4a6a8a;color:#8db4d8;border-radius:5px;font-size:.8rem;cursor:pointer;font-family:inherit}
+.logout-btn:hover{background:rgba(255,255,255,.08);color:#fff}
+@media(max-width:768px){.navbar{padding:0 16px;flex-wrap:wrap;height:auto;padding:10px 16px}.nav-links{width:100%;justify-content:center;margin-top:8px}}

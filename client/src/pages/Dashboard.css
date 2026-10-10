@@ -1,0 +1,13 @@
+.page-title{font-size:1.5rem;font-weight:700;color:#0f2b46;margin-bottom:4px}
+.page-sub{font-size:.9rem;color:#6b7a8d;margin-bottom:24px}
+.loading{text-align:center;padding:60px;color:#6b7a8d;font-size:1rem}
+.stat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:16px}
+.stat-card{background:#fff;border-radius:12px;padding:20px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,.05);border-left:4px solid #ddd}
+.stat-card.total{border-left-color:#2980b9}
+.stat-card.high{border-left-color:#e74c3c}
+.stat-card.medium{border-left-color:#f39c12}
+.stat-card.low{border-left-color:#27ae60}
+.stat-card.gpa{border-left-color:#8e44ad}
+.stat-card.declining{border-left-color:#e67e22}
+.stat-number{font-size:2rem;font-weight:700;color:#0f2b46}
+.stat-label{font-size:.82rem;color:#6b7a8d;margin-top:4px;font-weight:500}
